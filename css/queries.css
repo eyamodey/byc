@@ -1,0 +1,75 @@
+/* increase the size of the enclosed items when website is being viewed on tablet and/or laptop screens */
+@media (min-width: 768px) {
+  .vision {
+    font-size: 500%;
+  }
+   .article-title, .vision-statement {
+    font-size: 200%;
+  }
+
+  .home-page-carousel{
+    padding-top: 0;
+    padding-bottom: 10%;
+    border-bottom: 2%;
+  }
+
+  .how-we-work-body, .how-we-work-header {
+    font-size: 150%;
+  }
+
+  .body-wrap {
+    margin-left: 0;
+  }
+
+  .site-wrap{
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+@media (max-width: 768px) {
+    .multi-item-carousel .carousel-item > div {
+        display: none;
+    }
+    .multi-item-carousel .carousel-item > div:first-child {
+        display: block;
+    }
+    .contact-us-details{
+      padding-left: 1%;
+      text-align: left;
+    }
+    .whatsapp-contact{
+      width: 40px;
+      height: 40px;
+    }
+    .whatsapp-icon{
+      margin-top: 0;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+
+    .multi-item-carousel .carousel-item-right.active,
+    .multi-item-carousel .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+
+    .multi-item-carousel .carousel-item-left.active,
+    .multi-item-carousel .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.multi-item-carousel .carousel-item-right,
+.multi-item-carousel .carousel-item-left{
+  transform: translateX(0);
+}
+
+/* This should be in the main CSS file but am keeping it here for clarity */
+
+.multi-item-carousel .carousel-item.active,
+.multi-item-carousel .carousel-item-next,
+.multi-item-carousel .carousel-item-prev {
+    display: flex;
+}
