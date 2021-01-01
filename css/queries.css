@@ -25,6 +25,26 @@
     width: 80%;
     margin-left: 10%;
   }
+
+  /* Longrich advert page */
+  .about-us{
+    left: 55%;
+  }
+  .page-one-heading{
+    font-size: 350%;
+  }
+  .pathway-heading{
+    font-size: 230%;
+  }
+  .about-longrich-header, .about-us-header, h6.page4-intro, .difference-longrich-header{
+    font-size: 230%;
+  }
+  .about-longrich-body, .about-us-body{
+    font-size: 150%;
+  }
+  .difference-longrich-body, .how-longrich-works, .how-longrich-works-header, .page4-intro{
+    font-size: 130%;
+  }
 }
 @media (max-width: 768px) {
     .multi-item-carousel .carousel-item > div {

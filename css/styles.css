@@ -92,6 +92,9 @@ margin-top:16px;
 .vision {
   color: #ff4c68;
 }
+.whatsapp-message{
+  font-size: 40% ;
+}
 
 /* Specific styling for blog posts */
 
@@ -110,4 +113,193 @@ margin-top:16px;
 .published-date{
   font-weight: lighter;
   font-size: 80%;
+}
+
+/* Styling the LONGRICH page. Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+  height: 100%
+}
+
+.page-one {
+  /* Background image */
+  background-image: url("../images/blog.jpeg");
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a text color to all elements inside the .page-one container */
+  color: black;
+  /* Add a font */
+
+  /* Set the font-size to 25 pixels */
+
+  font-weight: bolder;
+}
+
+/* Position text in the top-left corner */
+.topleft-page {
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  padding-right: 50%;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft-page {
+  position: absolute;
+  bottom: 0;
+  width: 60%;
+  color: red;
+  background-color: #00ABCC;
+}
+.pathway-heading{
+  padding-left: 2%;
+}
+
+/* Position text in the middle */
+.middle-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 40%;
+}
+.page-two {
+  /* Background image */
+  background-image: url("../images/blog3.jpg");
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: right;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a text color to all elements inside the .page-one container */
+  color: white;
+  /* Add a font */
+  margin: 0;
+}
+.about-us{
+  position: relative;
+  top: 102%;
+  left: 50%;
+  transform: translate(-0%, -100%);
+
+  color: black;
+  /* margin-left: 30px;
+  margin-top: 2%;
+  margin-right: 0; */
+}
+.about-us-header{
+  /* Set the font-size to 25 pixels */
+  font-weight: bolder;
+
+}
+
+.page-three {
+  /* Background image */
+  background-image: url("../images/blog2.jpg");
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: top;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a text color to all elements inside the .page-one container */
+  color: white;
+  /* Add a font */
+  margin: 0;
+}
+.about-longrich{
+  padding: 0;
+  margin-left: 20px;
+  margin-top: 2%;
+  margin-right: 0;
+}
+.about-longrich-header{
+  /* Set the font-size to 25 pixels */
+  font-weight: bolder;
+}
+.page-four {
+  /* Background image */
+  background-image: url("../images/blog4.jpg");
+  /* Full-screen */
+  /* height: 100%; */
+  /* Center the background image */
+  background-position: top;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a text color to all elements inside the .page-one container */
+  color: white;
+  /* Add a font */
+  margin: 0;
+}
+.page4-intro{
+  text-align: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin: 0;
+}
+h6.page4-intro{
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+.how-longrich-works{
+  margin: 0;
+}
+hr{
+  border: dotted #ff0000 6px;
+  border-bottom: none;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.page-five {
+  /* Background image */
+  background-image: url("../images/blog5.jpg");
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: top;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a text color to all elements inside the .page-one container */
+  color: white;
+  /* Add a font */
+  margin: 0;
+}
+.difference-longrich{
+  padding: 0 2%;
+  margin: 2% 2% 1% 0;
+  background-color: black;
+}
+.difference-longrich-header{
+  /* Set the font-size to 25 pixels */
+  font-weight: bolder;
+}
+.join-us-now{
+  text-align: center;
+  background-color: #ff0000;
+}
+.join-us-now-tag{
+  padding: 0 1%;
 }
