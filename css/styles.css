@@ -186,20 +186,15 @@ hr {
   /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
   position: relative;
   /* Add a text color to all elements inside the .page-one container */
-  color: white;
+  color: black;
   /* Add a font */
   margin: 0;
 }
 .about-us{
-  position: relative;
-  top: 102%;
-  left: 50%;
-  transform: translate(-0%, -100%);
-
-  color: black;
-  /* margin-left: 30px;
+  padding: 0;
+  margin-left: 5%;
   margin-top: 2%;
-  margin-right: 0; */
+  margin-right: 2%;
 }
 .about-us-header{
   /* Set the font-size to 25 pixels */
@@ -219,15 +214,15 @@ hr {
   /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
   position: relative;
   /* Add a text color to all elements inside the .page-one container */
-  color: white;
+  color: black;
   /* Add a font */
   margin: 0;
 }
 .about-longrich{
   padding: 0;
-  margin-left: 20px;
+  margin-left: 5%;
   margin-top: 2%;
-  margin-right: 0;
+  margin-right: 2%;
 }
 .about-longrich-header{
   /* Set the font-size to 25 pixels */
