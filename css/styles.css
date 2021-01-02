@@ -231,6 +231,7 @@ hr {
 .page-four {
   /* Background image */
   background-image: url("../images/blog4.jpg");
+  background-color: black;
   /* Full-screen */
   /* height: 100%; */
   /* Center the background image */
@@ -297,4 +298,7 @@ hr{
 }
 .join-us-now-tag{
   padding: 0 1%;
+}
+.longrich-video{
+  width: 100%;
 }
