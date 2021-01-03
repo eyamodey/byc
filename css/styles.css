@@ -86,6 +86,10 @@ margin-top:16px;
   padding: 0;
   border: 0;
 }
+.site-body-wrap{
+  margin-left: 0;
+  margin-right: 0;
+}
 .social-share{
   margin-right: 3% ;
 }
