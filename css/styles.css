@@ -94,6 +94,7 @@ margin-top:16px;
 .social-share{
   margin-right: 3% ;
 }
+
 .vision {
   color: #ff4c68;
 }
@@ -306,4 +307,39 @@ hr{
 }
 .longrich-video{
   width: 100%;
+}
+/* JumiaPay page advert */
+.jumia-advert{
+  /* Background image */
+  background-image: url("../images/jumia-advert2.png");
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: top;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a text color to all elements inside the .page-one container */
+  color: black;
+}
+/* Position text in the top-left corner */
+.topleft-page1 {
+  position: absolute;
+  top: 10px;
+  left: 2%;
+  padding-right: 40%;
+}
+ol.jumia-advert-body{
+  padding-left: 10%;
+}
+.jumia-advert-link{
+  background-image: url("../images/1.jpg");
+  text-align: center;
+  width: 225px;
+  height: auto;
+  margin-left: 30px;
+}
+.advert-1, .advert-2{
+  margin-bottom: 10px;
 }

@@ -48,6 +48,13 @@
   .difference-longrich-body, .how-longrich-works, .how-longrich-works-header, .page4-intro{
     font-size: 130%;
   }
+  /* Jumia advert page */
+  .jumia-advert-heading{
+    font-size: 350%;
+  }
+  .jumia-advert-body, .jumia-advert-link-header{
+    font-size: 130%;
+  }
 }
 @media (max-width: 768px) {
     .multi-item-carousel .carousel-item > div {
