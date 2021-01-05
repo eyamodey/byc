@@ -334,7 +334,8 @@ ol.jumia-advert-body{
   padding-left: 10%;
 }
 .jumia-advert-link{
-  background-image: url("../images/1.jpg");
+  background-image: url("../images/1.JPG");
+  color: black;
   text-align: center;
   width: 225px;
   height: auto;
